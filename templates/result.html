@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detection Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    .result-box {
+      background: white;
+      padding: 30px;
+      margin: auto;
+      border-radius: 10px;
+      width: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    .filename {
+      color: #777;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="result-box">
+    <h2>Detection Result</h2>
+    <p class="filename">File: {{ filename }}</p>
+    <h3>{{ result }}</h3>
+    <a href="/">← Upload another file</a>
+  </div>
+</body>
+</html>
