@@ -9,9 +9,6 @@ A Flask web app that detects whether a given text is AI-generated or human-writt
 
 🖥️ Lightweight & easy to run locally or deploy online
 
-🚀 Live demo available
 
-🚀 Live Demo
-Try it out here: [Your Render App URL] 🌐
 
 # -AI-Generated-Content-Detector-
